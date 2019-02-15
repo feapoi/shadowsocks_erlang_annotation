@@ -4,7 +4,8 @@ shadowsocks原理简介
 -----
 **shadowsocks服务端提供tcp、udp协议（未实现）转发代理的功能，
 例如机器A访问某网站收到限制，机器A把请求通过加密发给不受限制的机器B由B代为访问，访问的结果再加密发回机器A，从而达到突破限制的作用。**
-    
+原项目地址：https://github.com/paulzql/shadowsocks-erlang
+
 协议
 -----
 - 客户端和shadowsocks服务端之间使用sock5协议通信，在转发之前需要进行一次握手，来验证客户端的信息，握手成功后即可进行转发
